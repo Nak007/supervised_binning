@@ -2181,6 +2181,7 @@ class plot_woe:
             \t Width, height in inches per plot. If `None`,
             \t it defautls to (5,4.5).
         '''
+           
         def initialize_(name, params, default):
             if params.get(name) is not None:
                 return params.get(name)
